@@ -1,0 +1,14 @@
+FROM fastdotai/fastai:latest
+
+COPY requirements.txt /home/appuser/
+RUN pip install --user -r /home/appuser/requirements.txt
+
+WORKDIR /home/appuser/
+COPY . /home/appuser/
+
+# Make port 8080 available to the world outside the container
+ENV PORT 8080
+EXPOSE 8080
+
+# CMD python app.py
+CMD ["python3", "app.py"] 
