@@ -1,5 +1,5 @@
 # Pool Detection from aerial imagery
 
-![img](photos/success.png)
+![img](photos/good_result.png)
 
 
