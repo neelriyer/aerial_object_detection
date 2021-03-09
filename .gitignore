@@ -1,0 +1,9 @@
+models/drone_mask.pkl
+models/model_final.pth
+.git/objects/6f/d01e6929762bfa06fd2ab7a278396e3ef314f0
+.git/objects/pack/pack-97dad1daf7ec159bfa0f284f66ad12c91b9cc2cb.pack
+.git/objects/63/a95bb6430fc375f68b2d7ae9789aebb70d6e22
+data/labelled_dataset/pool+solar_panel (2).tar
+container/notes.txt
+container/blog_post.txt
+.DS_Store
